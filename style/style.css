@@ -19,7 +19,9 @@ a {
 .footer {
     background-color: #1f2937;
     color: #f9faf8;
+    font-weight: light;
 }
+
 
 .content1 .title {
     font-size: 48px;
@@ -44,6 +46,7 @@ a {
 
 .content3 {
     background-color: #e5e7eb;
+    padding: 36px;
 }
 
 .quote {
@@ -66,4 +69,25 @@ a {
 
 .content4 .button {
     border: solid white;
+}
+
+
+/*Flexbox starts HERE*/
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 120px;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    align-items: center;
 }
