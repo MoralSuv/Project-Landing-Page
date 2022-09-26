@@ -45,6 +45,11 @@ a {
     color: #1f2937;
 }
 
+.content2 .title {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .content3 {
     background-color: #e5e7eb;
     padding: 36px;
@@ -96,7 +101,7 @@ ul {
 /*The section above includes flexbox for the heading*/
 
 .content1 {
-    padding: 80px 120px;
+    padding: 60px 120px 100px 120px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -117,3 +122,29 @@ ul {
 }
 
 /*The section above includes flexbox for the content 1 section*/
+
+.content2 {
+    text-align: center;
+    padding: 40px 120px 100px 120px;
+}
+.content2 .info {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+}
+
+.item {
+    max-width: 200px;
+}
+
+.item .image {
+    height: 150px;
+    margin-bottom: 12px;
+    border-radius: 8px;
+    border: 3px solid #3882f2;
+}
+
+/*The CSS above includes flexbox and tweeks for content 2 section*/
+
