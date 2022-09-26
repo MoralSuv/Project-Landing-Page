@@ -30,6 +30,7 @@ a {
 
 .content1 .text {
     font-size: 18px;
+    font-weight: 100;
 }
 
 .button {
@@ -91,3 +92,28 @@ ul {
     gap: 8px;
     align-items: center;
 }
+
+/*The section above includes flexbox for the heading*/
+
+.content1 {
+    padding: 80px 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content1 .left {
+    max-width: 500px;
+}
+
+.content1 .button {
+    margin-top: 12px;
+}
+
+.video {
+    max-width: 500px;
+    margin: 0 50px;
+    vertical-align: center;
+}
+
+/*The section above includes flexbox for the content 1 section*/
