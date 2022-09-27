@@ -38,8 +38,10 @@ a {
     background-color: #3882f2;
     border: none;
     border-radius: 8px;
-    padding: 8px 16px;
+    padding: 8px 24px;
+    font-weight: bold;
 }
+
 .content2,
 .content3 {
     color: #1f2937;
@@ -172,4 +174,8 @@ ul {
 .content4 .title {
     font-size: 18px;
     font-weight: bold;
+}
+
+.content4 .left {
+    font-weight: lighter;
 }
