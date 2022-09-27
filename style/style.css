@@ -94,7 +94,7 @@ body {
 
 ul {
     display: flex;
-    gap: 8px;
+    gap: 16px;
     align-items: center;
 }
 
@@ -114,7 +114,7 @@ ul {
 }
 
 .content1 .button {
-    margin-top: 12px;
+    margin-top: 16px;
 }
 
 .video {
@@ -179,3 +179,12 @@ ul {
 .content4 .left {
     font-weight: lighter;
 }
+
+/*The CSS above includes fitting the content into the appropriate layout*/
+
+.footer {
+    text-align: center;
+    padding: 30px;
+}
+
+/*Added padding and fitting for the footer*/
